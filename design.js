@@ -1,0 +1,100 @@
+
+//what we do section javascript
+var leftImg = document.querySelector("#container_of_image");
+var separated_0 = document.querySelector("#separated_block_section");
+var separated_1 = document.querySelector("#separated_blocks_section_1");
+var separated_2 = document.querySelector("#separated_blocks_section_2");
+var separated_3 = document.querySelector("#separated_blocks_section_3");
+var separated_4 = document.querySelector("#separated_blocks_section_4");
+var separated_5 = document.querySelector("#separated_blocks_section_5");
+var add_0 = document.getElementsByClassName("separated_blocks_title")[0];
+var add_1 = document.getElementsByClassName("separated_blocks_title")[1];
+var add_2 = document.getElementsByClassName("separated_blocks_title")[2];
+var add_3 = document.getElementsByClassName("separated_blocks_title")[3];
+var add_4 = document.getElementsByClassName("separated_blocks_title")[4];
+var add_5 = document.getElementsByClassName("separated_blocks_title")[5];
+separated_1.addEventListener("click",function(){
+	leftImg.setAttribute("src","images/2wb.jpg");
+	add_1.classList.add("fontColor");
+	add_2.classList.remove("fontColor");
+	add_3.classList.remove("fontColor");
+	add_4.classList.remove("fontColor");
+	add_5.classList.remove("fontColor");
+	add_0.classList.remove("fontColor");
+	this.classList.add("fontColor");
+	separated_0.classList.remove("fontColor");
+    separated_2.classList.remove("fontColor");
+    separated_3.classList.remove("fontColor");
+    separated_4.classList.remove("fontColor");
+    separated_5.classList.remove("fontColor");
+});separated_2.addEventListener("click",function(){
+	leftImg.setAttribute("src","images/131.jpg");
+	add_2.classList.add("fontColor");
+	add_1.classList.remove("fontColor");
+	add_3.classList.remove("fontColor");
+    add_4.classList.remove("fontColor");
+    add_5.classList.remove("fontColor");
+    add_0.classList.remove("fontColor");
+    this.classList.add("fontColor");
+    separated_0.classList.remove("fontColor");
+    separated_1.classList.remove("fontColor");
+    separated_3.classList.remove("fontColor");
+    separated_4.classList.remove("fontColor");
+    separated_5.classList.remove("fontColor");
+});separated_0.addEventListener("click",function(){
+	leftImg.setAttribute("src","images/3wb.jpg");
+	add_0.classList.add("fontColor");
+	add_1.classList.remove("fontColor");
+	add_3.classList.remove("fontColor");
+    add_4.classList.remove("fontColor");
+    add_5.classList.remove("fontColor");
+    this.classList.add("fontColor");
+    separated_1.classList.remove("fontColor");
+    separated_2.classList.remove("fontColor");
+    separated_3.classList.remove("fontColor");
+    separated_4.classList.remove("fontColor");
+    separated_5.classList.remove("fontColor");
+});separated_3.addEventListener("click",function(){
+	leftImg.setAttribute("src","images/4wb.jpg");
+	add_3.classList.add("fontColor");
+	add_1.classList.remove("fontColor");
+	add_2.classList.remove("fontColor");
+	add_4.classList.remove("fontColor");
+	add_5.classList.remove("fontColor");
+	add_0.classList.remove("fontColor");
+	this.classList.add("fontColor");
+	separated_0.classList.remove("fontColor");
+    separated_2.classList.remove("fontColor");
+    separated_1.classList.remove("fontColor");
+    separated_4.classList.remove("fontColor");
+    separated_5.classList.remove("fontColor");
+});separated_4.addEventListener("click",function(){
+	leftImg.setAttribute("src","images/5wb.jpg");
+	add_4.classList.add("fontColor");
+	add_1.classList.remove("fontColor");
+	add_2.classList.remove("fontColor");
+	add_3.classList.remove("fontColor");
+	add_5.classList.remove("fontColor");
+	add_0.classList.remove("fontColor");
+	this.classList.add("fontColor");
+	separated_0.classList.remove("fontColor");
+    separated_2.classList.remove("fontColor");
+    separated_3.classList.remove("fontColor");
+    separated_1.classList.remove("fontColor");
+    separated_5.classList.remove("fontColor");
+});separated_5.addEventListener("click",function(){
+	leftImg.setAttribute("src","images/6wb.jpg");
+	add_5.classList.add("fontColor");
+	add_1.classList.remove("fontColor");
+	add_2.classList.remove("fontColor");
+	add_3.classList.lassList.remove("fontColor");
+	add_4.cremove("fontColor");
+	add_0.classList.remove("fontColor");
+    this.classList.add("fontColor");
+    separated_0.classList.remove("fontColor");
+    separated_2.classList.remove("fontColor");
+    separated_3.classList.remove("fontColor");
+    separated_4.classList.remove("fontColor");
+    separated_1.classList.remove("fontColor");
+});
+//what we do section javascript end
